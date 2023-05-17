@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6, tomato);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 0;
+}
+
+/* ADICIONAR TAREFA ----------------- */
+.input-task {
+    border: none;
+    border-radius: 5px;
+    width: 330px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    background:  #f8f1fb;
+}
+
+.button-add-task {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6, tomato);
+    font-size: 17px;
+    padding: 0 30px;
+    float: right;
+    cursor: pointer;
+    color: white;
+}
+
+.button-add-task:hover {
+    background: linear-gradient(rgb(155, 89, 182), tomato);
+}
+
+.button-add-task:active {
+    height: 35px;
+    padding: 0 25px;
+    font: 13px;
+    margin-right: 5px;
+    margin-top: 2.5px;
+}
+
+/* LISTA ----------------- */
+.list-tasks {
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.task {
+    background-color: #f8e5ff;
+    box-shadow: 1px 4px 10px rgba(155, 89, 182, 0.2);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* ICONES DA LISTA ----------------- */
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.task:hover img {
+    opacity: 1;
+}
+
+/* TAREFA CONCLUIDA ----------------- */
+.done {
+    background-color: rgb(167, 126, 184); 
+    text-decoration: line-through;
+}
