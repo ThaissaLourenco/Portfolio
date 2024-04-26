@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 <p align="left"> 
-Meu nome é Thaissa, tenho 23 anos e atualmente estou estudando <strong>Sistemas de Informação e Cibersegurança</strong>. 
+Meu nome é Thaissa, tenho 24 anos e atualmente estou estudando <strong>Ciência da Computação e Cibersegurança</strong>. 
   
   Apesar de não possuir experiência profissional, estou dedicando meu tempo para aprender e desenvolver projetos com o objetivo de aprimorar minhas habilidades. 
   
